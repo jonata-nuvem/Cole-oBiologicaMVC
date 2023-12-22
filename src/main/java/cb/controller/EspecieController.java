@@ -22,7 +22,7 @@ public class EspecieController extends HttpServlet {
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		//Salvar os dados no BD
+		//Salvar os dados no BD//
 				if(request.getParameter("action").equals("salvar")){
 					Especie especie = new Especie();
 					especie.setNomeespecie(request.getParameter("nomeespecie"));
